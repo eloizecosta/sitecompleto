@@ -1,0 +1,321 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+:root{
+    --cor0:#ffa770;
+    --cor1:#ff914d;
+    --cor2:#e67b39;
+    --cor3:#ed5f06 ;
+    --corpadrao: #ffffff;
+    --fonte-padrao:'Times New Roman', Times, serif;
+    --fonte-destaque:"Bebas Neue", sans-serif;
+    --fonte-h1: "Playfair Display", serif;
+}
+
+h1{
+    font-family: var(--fonte-h1);
+}
+
+.nomeProduto{
+    text-align: center;
+}
+
+header{
+ align-items: center;
+ display: flex;
+ background-color: #ff914d;
+ color: var(--corpadrao);
+ text-align: center;
+ width: 100%;
+ height: auto;
+
+}
+
+nav{
+   background-color: #e67b39;
+   text-align: center;
+   height: 40px;
+}
+
+nav p{
+    padding-top: 10px;
+    margin: 0px;
+}
+
+nav a {
+    font-family: var(--fonte-padrao);
+    color: var(--corpadrao);
+    border-radius: 5px;
+    font-size: 1.1em;
+    text-decoration: none;
+    transition-duration: 0.5s;
+    align-items: center;
+    padding: 0px 20px;
+    margin-top: 10px;
+   
+}
+
+nav a:hover{
+    background-color: var(--cor1);
+    border-radius:5px;
+    padding: 3px;
+}
+
+header img{
+    border-top: 2px;
+    margin-right: 0px;
+    width: 190px;
+    height: 190x;
+    display:flex;
+}
+
+body{
+    font-family: var(--fonte-padrao);
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background-image: url(midia/fundo_petshop.png);
+    
+} 
+
+.entrada{
+background-color: var(--cor0);
+}
+
+.bloco-section{
+    display: block;
+    background-color:rgb(255, 175, 145);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 600px;
+    justify-content: center;
+    margin-top: 10px;
+    margin: auto;
+    margin-top: 20px;
+    width: 90%;
+}
+
+.caixa-section{
+    margin-top: 50px;
+    background-color:rgb(255, 175, 145);
+    padding: 20px;
+    display: flex;
+    margin: auto;
+    margin-top: 20px;
+    width: 85%;
+    border-radius: 10px;
+    
+}
+
+.caixa-section2{
+    margin-top: 50px;
+    background-color:rgb(255, 175, 145);
+    padding: 20px;
+    display: flex;
+    margin: auto;
+    margin-top: 20px;
+    width: 85%;
+    border-radius: 10px;
+    
+}
+
+.caixa-section3{
+    margin-top: 50px;
+    background-color:rgb(255, 175, 145);
+    padding: 20px;
+    display: flex;
+    margin: auto;
+    margin-top: 20px;
+    width: 85%;
+    border-radius: 10px;
+}
+
+.caixinha-section{
+    margin-top: 50px;
+    background-color:var(--cor2);
+    padding: 20px;
+    margin: auto;
+    margin-top: 100px;
+    width: 65%;
+    border-radius: 30px;
+    align-items: center;
+    text-decoration: none;
+}
+
+.caixinha-section img{
+    display: flex;
+    margin: auto;
+}
+
+.racoes{
+    text-align: center;
+    color:var(--cor3);
+}
+
+.racoes img{
+    height: auto;
+    margin-left: 5px; 
+    display: inline;
+    width: 200px;
+}
+
+.acessorios{
+    text-align: center;
+    color:var(--cor3);
+}
+
+.acessorios img{
+    height: auto;
+    margin-left: 5px; 
+    display: inline;
+    width: 200px;
+}
+
+footer{
+    background-color: var(--cor1);
+    margin-bottom: 20px;
+}
+
+article p{
+    line-height: 20px;
+}
+
+.imagensRacao img{
+    height: auto;
+    transition-duration: 180ms;
+    margin-left: 232px;
+    width: 200px;
+    display: inline;
+}
+
+.imagensRacao img:hover{
+    opacity: 1;
+    transform: scale(1.05);
+}
+
+fieldset{
+    margin-bottom: 20px;
+    
+}
+
+button{
+    margin-top: -4px;
+    display: block;
+    margin-left: 37%;
+    width: 20%;
+    padding: 10px;
+    background-color:var(--cor1);
+    color:white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+button:hover{
+  background-color: var(--cor3);
+  color:rgb(255, 255, 255);
+  transition-duration: 1.5s;
+  padding: 10px;
+  text-shadow: #fffcfc 5px, 5px, 5px;
+}
+
+#contato{
+    width: 700000px;
+}
+
+.quiz-section{
+    display: block;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 600px;
+    justify-content: center;
+    margin-top: 20px;
+    margin: auto;
+    margin-top: 20px;
+
+}
+
+.tamanho{
+    width: 50%;
+}
+
+button:hover{
+    background-color: var(--cor3);
+}
+#reiniciar{
+    background-color: rgb(180, 173, 173);
+}
+#result {
+    margin-top: 20px;
+    font-size: 18px;
+    text-align: center;
+    width: 80%;
+}
+
+#enviar{
+color:black
+}
+
+input[type="text"],
+select{
+    width: calc(100% - 20px);
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    border:  1px solid #ccc;
+}
+
+input[type="email"],
+select{
+    width: calc(100% - 20px);
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    border:  1px solid #ccc;
+}
+
+input[type="number"],
+select{
+    width: calc(100% - 20px);
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    border:  1px solid #ccc;
+}
+
+video{
+    width: 500px;
+    height: auto;
+    display: flex;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.login a{
+    text-decoration: none;
+    color:var(--corpadrao);
+    background-color:#004aad ;
+}
+
+.video-section{
+    padding-top: 80px;
+    background-color:rgb(255, 175, 145);
+    padding: 20px;
+    margin-bottom: 50px;
+    margin-top: 47px;
+    width: 40%;
+    height: 280px;
+    border-radius: 30px;
+    align-items: center;
+    text-decoration: none;
+    margin-left: 415px;
+
+}
+.audio{
+    display: flex;
+    margin: auto;
+    margin-top: 20px;
+}
